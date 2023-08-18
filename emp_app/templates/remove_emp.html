@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REMOVE EMPLOYEE</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style3.css' %}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="heading">
+    <h2 class="title">
+      <span class="title-word title-word-1">REMOVE</span>
+      <span class="title-word title-word-2">AN</span>
+      <span class="title-word title-word-3">EMPLOYEE</span>
+    </h2>
+  </div>
+  <div class="container" style="width:100vw;display: flex;flex-direction: row;margin-left:220px !important;align-items: center; ">
+    <!-- ss bejna -->
+    <div class="box" style="margin: 80px !important; padding-left:55px;">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Choose Employee to Remove
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
+          {% for emp in emps %}
+          <li><a class="dropdown-item" href="/remove_emp/{{emp.id}}">{{emp.first_name}} {{emp.last_name}}</a></li>
+          {% endfor %}
+
+        </ul>
+
+      </div>
+    </div>
+    <video autoplay muted loop id="myVideo" loop="" style="border-radius: 25px; margin-right: 145px;">
+      <source src="static/img/bye byee.mp4" type="video/mp4">
+      
+    </video>
+    <!--<img src="static/img/bye bye.gif" alt="" width="50%">-->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+</html>

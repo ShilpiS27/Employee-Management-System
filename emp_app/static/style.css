@@ -1,0 +1,329 @@
+.btn:hover {
+  background: var(--green-color);
+    border-radius: 5rem;
+    color: var(crimpson);
+    transition: background 0.5s;
+
+}
+.parent{
+  display:inline-block;
+  width: 50%;
+}
+.parent .container{
+  height: 550px; 
+  width: 700px; 
+  background-color: rgb(220, 20, 60); 
+}
+.parent .Gallery{
+    margin-top: 2rem;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+a{
+  color: white;
+}
+.c0{
+  display: inline-block;
+}
+.c1{
+  display: inline-block;
+}
+.c2{
+  display: inline-block;
+}
+.c3{
+  display: inline-block;
+}
+.c4{
+  display: inline-block;
+}
+.c5{
+  display: inline-block;
+}
+.c6{
+  display: inline-block;
+}
+.c7, C8, C9 C10, C11, C12,C13{
+  display: inline-block;
+}
+h6{
+  font-size: 1.2rem;
+  margin-top: 1%;
+}
+h6 .type0{
+  font-size: 1rem;
+  overflow: hidden;
+  border-right: .15em white;
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 2.5s steps(25, end) forwards;
+  
+}
+h6 .type1{
+    font-size: 1rem;
+    overflow: hidden;
+    border-right: .15em white;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 4.5s steps(25, end) forwards;
+    animation-delay: 2.5s
+}
+h6 .type2{
+    font-size: 1rem; 
+    overflow: hidden;
+    border-right: .15em white;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 3s steps(25, end) forwards;
+    animation-delay: 7s;
+}
+h6 .type3{
+    font-size: 1rem; 
+    overflow: hidden;
+    border-right: .15em white; 
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 3s steps(25, end) forwards;
+    animation-delay: 10s;
+}
+h6 .type4{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 13s;
+}
+h6 .type5{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 16s;
+}
+h6 .type6{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 19s;
+}
+h6 .type7{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 22s;
+}
+h6 .type8{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 25s;
+}
+h6 .type9 {
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 28s;
+}
+h6 .type10{
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 31s;
+}
+h6 .type11 {
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 34s;
+}
+h6 .type12 {
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 37s;
+}
+h6 .type13 {
+  font-size: 1rem; 
+  overflow: hidden;
+  border-right: .15em white; 
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 3s steps(25, end) forwards;
+  animation-delay: 40s;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: white; }
+}
+.gallery {
+  --g: 8px;   /* the gap */
+  --s: 400px; /* the size */
+  
+  display: grid;
+  border-radius: 50%;
+  padding-left:0px !important;
+  
+  
+  
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(var(--_x,0),var(--_y,0));
+  cursor: pointer;
+  z-index: 0;
+ 
+  
+  padding top: 10px;
+  transition: .3s, z-index 0s .3s;
+}
+.gallery img:hover {
+  --_i: 1;
+  z-index: 1;
+  transition: transform .2s, clip-path .3s .2s, z-index 0s;
+}
+.gallery:hover img {
+  transform: translate(0,0);
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
+  --_y: calc(-1*var(--g))
+}
+.gallery > img:nth-child(2) {
+  clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: var(--g)
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
+  --_y: var(--g)
+}
+.gallery > img:nth-child(4) {
+  clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: calc(-1*var(--g))
+}
+
+#container1 { margin: 0%; }
+
+#circle { position: relative;width: 100%; padding-bottom: 100%; overflow: hidden; }
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 12px; font-weight: bold; }
+
+#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 1050px; z-index:9; margin-left:200px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
